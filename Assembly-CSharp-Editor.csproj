@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{F5DE7299-7D93-9765-35A0-2307C8F29208}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_9;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity 4.6/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity 4.6/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\CIClothingEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DCharacterManagerEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DMorphEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DResourceEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DToolsEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\MaterialImporter.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\MorphDebugInfo.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\SearchableWindow.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Editor\HairShaderGUI.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Editor\VolundMultiStandardShaderGUI.cs" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\StandardSpecular-doublesided.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_Universal.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Volund_UnityStandardCore.cginc" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow_ShadowSample.cginc" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_UnityStandardInput.cginc" />
+     <None Include="Assets\MORPH3D\Resources\Shaders\AlphaCombiner.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\Standard-doublesided.shader" />
+     <None Include="Assets\MORPH3D\README.txt" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\Standard-2pass-doublesided-half depth.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\Standard-2pass-doublesided.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\MorphSkinDeferred.shader" />
+     <None Include="Assets\MORPH3D\Resources\Shaders\Morph3DBasicSkin.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Volund_UnityStandardInput.cginc" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_setup.cginc" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_UnityStandardCore.cginc" />
+     <None Include="Assets\MORPH3D\Resources\Shaders\EyeAndLash.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow_DepthOnly.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Volund_StandardSpecularCharacter.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity 4.6/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files (x86)/Unity 4.6/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity 4.6/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="M3D_DLL">
+ <HintPath>C:/Users/GlaDOS/Documents/programming/repos/unity course/GlitchGarden/Assets/MORPH3D/Scripts/Plugins/M3D_DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="M3DIMPORT_DLL">
+ <HintPath>C:/Users/GlaDOS/Documents/programming/repos/unity course/GlitchGarden/Assets/MORPH3D/Scripts/Plugins/M3DIMPORT_DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/GlaDOS/Documents/programming/repos/unity course/GlitchGarden/Assets/MORPH3D/Scripts/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="MCS_Utilities">
+ <HintPath>C:/Users/GlaDOS/Documents/programming/repos/unity course/GlitchGarden/Assets/MORPH3D/Scripts/Plugins/MCS_Utilities.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{5254937B-CF39-AEAB-C4B2-E19E2A547F9C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

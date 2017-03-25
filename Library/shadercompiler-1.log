@@ -1,0 +1,160 @@
+Base path: C:/Program Files (x86)/Unity 4.6/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-13320
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=952 outsize=319 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=931 outsize=1071 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=931 outsize=852 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 15 at (40): Syntax error
+  error: 2 plat 15 at (41): Syntax error
+  error: 2 plat 15 at (46): Syntax error
+  insize=1395 outsize=645 ok=0
+Cmd: preprocess
+  insize=1392 outsize=415 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1220 outsize=1168 kw=_ ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1220 outsize=510 kw=_ ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1247 outsize=1168 kw=_ ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1247 outsize=819 kw=_ ok=1
+Cmd: preprocess
+  error: 1 plat 15 at (71): Unrecognized #pragma directive: shader_feature
+  error: 2 plat 15 at (166): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (229): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (379): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (423): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (460): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (460): Unrecognized renderer for #pragma exclude_renderers: nomrt
+  error: 2 plat 15 at (469): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (510): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (558): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (558): Unrecognized #pragma directive: skip_variants
+  error: 1 plat 15 at (603): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (603): Unrecognized #pragma directive: skip_variants
+  error: 1 plat 15 at (643): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (643): Unrecognized #pragma directive: skip_variants
+  error: 1 plat 15 at (680): Unrecognized #pragma directive: shader_feature
+  error: 2 plat 15 at (756): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (826): Can't find include file UnityStandardShadow.cginc
+  error: 2 plat 15 at (897): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (970): Can't find include file UnityStandardMeta.cginc
+  error: 2 plat 15 at (1064): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (1140): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (1202): Can't find include file UnityStandardShadow.cginc
+  error: 2 plat 15 at (1262): Can't find include file UnityStandardMeta.cginc
+  insize=17222 outsize=5385 ok=0
+Cmd: preprocess
+  error: 1 plat 15 at (66): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (115): Unrecognized #pragma directive: shader_feature
+  error: 2 plat 15 at (154): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (159): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (198): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (198): Unrecognized renderer for #pragma exclude_renderers: nomrt
+  error: 2 plat 15 at (240): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (248): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (290): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (290): Unrecognized #pragma directive: skip_variants
+  error: 2 plat 15 at (310): Can't find include file UnityStandardShadow.cginc
+  error: 1 plat 15 at (337): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (337): Unrecognized #pragma directive: skip_variants
+  error: 1 plat 15 at (377): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (377): Unrecognized #pragma directive: skip_variants
+  error: 2 plat 15 at (385): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (413): Unrecognized #pragma directive: shader_feature
+  error: 2 plat 15 at (458): Can't find include file UnityStandardMeta.cginc
+  error: 2 plat 15 at (540): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (620): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (682): Can't find include file UnityStandardShadow.cginc
+  error: 2 plat 15 at (740): Can't find include file UnityStandardMeta.cginc
+  insize=8674 outsize=4925 ok=0
+Cmd: preprocess
+  error: 2 plat 15 at (6): Can't find include file UnityStandardConfig.cginc
+  error: 2 plat 15 at (7): Can't find include file UnityStandardUtils.cginc
+  error: 2 plat 15 at (10): Can't find include file UnityStandardConfig.cginc
+  error: 2 plat 15 at (11): Can't find include file UnityPBSLighting.cginc
+  error: 2 plat 15 at (12): Can't find include file UnityStandardUtils.cginc
+  error: 2 plat 15 at (13): Can't find include file UnityStandardBRDF.cginc
+  error: 1 plat 15 at (81): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (135): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (184): Unrecognized #pragma directive: shader_feature
+  error: 2 plat 15 at (358): Can't find include file UnityStandardShadow.cginc
+  insize=4967 outsize=3356 ok=0
+Cmd: preprocess
+  error: 2 plat 15 at (57): Syntax error
+  error: 2 plat 15 at (59): Syntax error
+  insize=1872 outsize=847 ok=0
+Cmd: preprocess
+  error: 2 plat 15 at (19): Can't find include file UnityPBSLighting.cginc
+  error: 1 plat 15 at (19): Unrecognized #pragma surface directive: alpha:fade
+  error: 2 plat 15 at (27): Include callback failed
+  insize=2145 outsize=570 ok=0
+Cmd: preprocess
+  error: 1 plat 15 at (72): Unrecognized #pragma directive: shader_feature
+  error: 2 plat 15 at (168): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (230): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (380): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (424): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (461): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (461): Unrecognized renderer for #pragma exclude_renderers: nomrt
+  error: 2 plat 15 at (471): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (511): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (559): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (559): Unrecognized #pragma directive: skip_variants
+  error: 1 plat 15 at (604): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (604): Unrecognized #pragma directive: skip_variants
+  error: 1 plat 15 at (644): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (644): Unrecognized #pragma directive: skip_variants
+  error: 1 plat 15 at (681): Unrecognized #pragma directive: shader_feature
+  error: 2 plat 15 at (758): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (828): Can't find include file UnityStandardShadow.cginc
+  error: 2 plat 15 at (899): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (972): Can't find include file UnityStandardMeta.cginc
+  error: 2 plat 15 at (1066): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (1142): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (1204): Can't find include file UnityStandardShadow.cginc
+  error: 2 plat 15 at (1264): Can't find include file UnityStandardMeta.cginc
+  insize=17234 outsize=5409 ok=0
+Cmd: preprocess
+  error: 2 plat 15 at (8): Can't find include file UnityStandardConfig.cginc
+  error: 2 plat 15 at (9): Can't find include file UnityPBSLighting.cginc
+  error: 2 plat 15 at (10): Can't find include file UnityStandardUtils.cginc
+  error: 2 plat 15 at (14): Can't find include file UnityStandardConfig.cginc
+  error: 2 plat 15 at (15): Can't find include file UnityPBSLighting.cginc
+  error: 2 plat 15 at (16): Can't find include file UnityStandardUtils.cginc
+  error: 2 plat 15 at (17): Can't find include file UnityStandardBRDF.cginc
+  error: 1 plat 15 at (75): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (75): Unrecognized renderer for #pragma only_renderers: glcore
+  error: 1 plat 15 at (127): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (127): Unrecognized renderer for #pragma only_renderers: glcore
+  error: 1 plat 15 at (173): Unrecognized renderer for #pragma only_renderers: glcore
+  error: 2 plat 15 at (338): Can't find include file UnityStandardShadow.cginc
+  insize=5264 outsize=3542 ok=0
+Cmd: preprocess
+  error: 1 plat 15 at (66): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (114): Unrecognized #pragma directive: shader_feature
+  error: 2 plat 15 at (154): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (158): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (197): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (197): Unrecognized renderer for #pragma exclude_renderers: nomrt
+  error: 2 plat 15 at (238): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (246): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (288): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (288): Unrecognized #pragma directive: skip_variants
+  error: 2 plat 15 at (308): Can't find include file UnityStandardShadow.cginc
+  error: 1 plat 15 at (334): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (334): Unrecognized #pragma directive: skip_variants
+  error: 1 plat 15 at (374): Unrecognized #pragma directive: shader_feature
+  error: 1 plat 15 at (374): Unrecognized #pragma directive: skip_variants
+  error: 2 plat 15 at (383): Can't find include file UnityStandardCore.cginc
+  error: 1 plat 15 at (411): Unrecognized #pragma directive: shader_feature
+  error: 2 plat 15 at (454): Can't find include file UnityStandardMeta.cginc
+  error: 2 plat 15 at (536): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (614): Can't find include file UnityStandardCore.cginc
+  error: 2 plat 15 at (676): Can't find include file UnityStandardShadow.cginc
+  error: 2 plat 15 at (736): Can't find include file UnityStandardMeta.cginc
+  insize=8641 outsize=4883 ok=0
