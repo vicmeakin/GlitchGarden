@@ -19,6 +19,7 @@ public class GameTimer : MonoBehaviour {
 		SetupSlider ();
 		FindWinLable ();
 		winSound=GetComponent<AudioSource>();
+		winSound.volume=PlayerPrefsManager.GetMasterVolume()+20f;
 		lm = FindObjectOfType<LevelManager>();
 		levelWon=false;
 	}

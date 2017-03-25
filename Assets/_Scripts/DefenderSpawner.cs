@@ -26,7 +26,7 @@ public class DefenderSpawner : MonoBehaviour {
 		
 		//only want to let them place the defenders on first 7 squares so they can see attackers coming an plan for them (and also to stop attackers being able to attack them while they are off screen if they 			
 		//are using a 4:3 screen to play the game as that doesn't have any extra space on the edge for the attacker to approach from)
-		if (gridPos.x <8f){		
+		if (gridPos.x <9f){		
 			GameObject defender = Button.selectedDefender;
 			int defenderCost = defender.GetComponent<Defender>().starCost;
 			if(CanWeAffordIt(defenderCost)){	

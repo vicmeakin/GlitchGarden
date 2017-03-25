@@ -6,14 +6,34 @@ using UnityEngine.UI;
 public class LivesDisplay : MonoBehaviour {
 
 	private Text txtLives;
-	public int maxAttackersThrough = 1;
+	private int maxAttackersThrough;
 	private int attackersLeft;
 	private LevelManager lm;
 	
 	void Start(){
 		lm = GameObject.FindObjectOfType<LevelManager>();
-		attackersLeft=maxAttackersThrough;
 		txtLives=this.GetComponent<Text> ();
+		
+		//set how many attackers can get through based on selected difficulty
+		int difficulty = Mathf.RoundToInt(PlayerPrefsManager.GetDifficulty());
+		
+		switch (difficulty)
+		{
+		case 1:
+			maxAttackersThrough = 15;
+			break;
+		case 2:
+			maxAttackersThrough = 10;
+			break;
+		case 3:
+			maxAttackersThrough = 5;
+			break;
+		default:
+			maxAttackersThrough = 10;
+			break;
+		}
+		
+		attackersLeft=maxAttackersThrough;
 		UpdateDisplay();
 	}
 	
