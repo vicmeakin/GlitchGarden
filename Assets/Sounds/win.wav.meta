@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2667a0a008b044e218b63df62e2be749
+labels:
+- Audio
+- Casual
+- Sound
+- SFX
+- Effect
+AudioImporter:
+  serializedVersion: 4
+  format: -1
+  quality: -1
+  stream: 1
+  3D: 1
+  forceToMono: 0
+  useHardware: 0
+  loopable: 0
+  userData: 
